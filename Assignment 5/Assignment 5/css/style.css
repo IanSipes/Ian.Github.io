@@ -1,0 +1,447 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 2.5em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+background: #40aefa	
+
+}
+
+
+
+div.shape1{
+  height: 0rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #fa9d40;
+position: absolute;
+    left: 100px;
+  top: 90px;
+    transition: width 2s;
+transform: rotate(30deg);
+}
+
+div.shape1:hover {
+  width: 800px;
+}
+
+
+div.shape2{
+height: -30rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #07ffd7;
+     position: absolute;
+    left: 340px;
+  top: 80px;
+  z-index: -1;
+    transform: skewY(40deg);
+}
+
+
+div.shape3{
+  height: -10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #faf540;
+position: absolute; 
+    left: 215px;
+  top: 250px;
+    transition: width 2s;
+transform: skewY(20deg);
+}
+
+div.shape3:hover {
+  width: 700px;
+}
+    
+.shape4  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 55px solid #fa4c40;
+     transform: translate(100px,100px);
+    position: relative;
+  animation: myfirst 1s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:blue; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+div.shape5{
+   height: -30rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid green;
+     position: absolute;
+    left: 670px;
+  top: 500px;
+    transform: rotate(180deg);
+}
+
+
+div.shape6{
+  height: -50rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #dd60ff;
+     position: absolute;
+    left: 500px;
+  top: 620px;
+  z-index: -1;
+    transition: width 2s;
+transform: skewY(10deg);
+}
+div:hover {
+  width: 400px;
+transition-timing-function: linear;
+}
+
+
+div.shape7{
+ height: -100rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #95fa1f;
+     position: absolute;
+    left: 360px;
+  top: 550px;
+  z-index: -1;
+    transform: rotate(60deg);
+}
+
+
+div.shape8  {
+  height: -300rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #ff00e8;
+     position: absolute;
+    left: 870px;
+  top: 500px;
+  z-index: -1;
+transform: scaleY(1.5);
+}
+
+
+div.shape9{
+    height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #cf1b00;
+     position: absolute;
+    left: 680px;
+  top: 160px;
+    transform: rotate(-20deg);
+}
+
+div.shape10 {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #26cf89;
+     position: absolute;
+    left: 1200px;
+  top: 100px;
+    transform: rotate(50deg);
+}
+
+div.shape11  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #f8ff4e;
+     position: absolute;
+    left: 1105px;
+  top: -140px;
+    transform: skewY(20deg);
+}
+
+div.shape12  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #451616;
+     position: absolute;
+    left: 1250px;
+  top: -150px;
+    transform: skewY(-20deg);
+}
+
+div.shape13  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #4f0087;
+     position: absolute;
+    left: 1153px;
+  top: 100px;
+  z-index: -1;
+}
+
+div.shape14  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #38ff00;
+     position: absolute;
+    left: 1000px;
+  top: -300px;
+    transform: skewY(-20deg);
+}
+
+div.shape15  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid blue;
+     position: absolute;
+    left: 900px;
+  top: -500px;
+    transform: scaleY(1.5);
+}
+
+
+div.shape16  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #39b39f;
+     position: absolute;
+    left: 623px;
+  top: -400px;
+   transform: skewY(-20deg);
+}
+
+div.shape17  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #b33979;
+     position: absolute;
+    left: 347px;
+  top: -150px;
+  z-index: -1;
+}
+
+div.shape18  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #a80058;
+     position: absolute;
+    left: 170px;
+  top: 100px;
+}
+
+div.shape19  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #a87f00;
+     position: absolute;
+    left: 1200px;
+  top: -380px;
+  z-index: -1;
+}
+
+div.shape20  {
+  height: 10rem;
+  width: 0rem;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #ffbf5e;
+     position: absolute;
+    left: 200px;
+  top: -380px;
+  z-index: -1;
+}
+
+
+div.shape21{
+     height: 10rem;
+  width: 0rem;
+  border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 55px solid #ff795e;
+    position: relative;
+   transform: translate(1000px,-300px);
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:blue; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+div.shape22  {
+  height: 400px;
+  width: 400px;
+  background-color: #fcffd5;
+  border-radius: 50%;
+    position: absolute;
+    left: 500px;
+  top: 100px;
+text-align: center;
+   transition: width 2s, height 2s, transform 2s;
+}
+div.shape22:hover{
+    width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+div.shape23  {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+    position: absolute;
+    left: 600px;
+  top: 200px;
+text-align: center;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+div.shape23:hover{
+    width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+div.shape24  {
+   height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+    position: absolute;
+    left: 750px;
+  top: 200px;    
+text-align: center;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+div.shape24:hover{
+    width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+div.shape25  {
+   height: 50px;
+  width: 50px;
+  background-color: brown;
+  border-radius: 50%;
+    position: absolute;
+    left: 700px;
+  top: 100px;    
+text-align: center;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+div.shape25:hover{
+    width: 300px;
+  height: 300px;
+  transform: rotate(100deg);
+}
+
+
+div.shape26  {
+   height: 50px;
+  width: 50px;
+  background-color: orangered;
+  border-radius: 50%;
+    position: absolute;
+    left: 670px;
+  top: 250px;    
+}
+
+
+
+
+div.shape27  {
+   height: 50px;
+  width: 50px;
+  background-color: brown;
+  border-radius: 50%;
+    position: absolute;
+    left: 650px;
+  top: 100px;    
+}
+
+div.shape28  {
+   height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  transition: width 2s, height 2s, transform 2s;
+    position: absolute;
+    left: 640px;
+  top: 350px;    
+text-align: center;
+transition: width 2s;
+transition-delay: 1s;
+}
+
+div.shape28:hover{
+    width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+
+
+
+#container {
+	
+}
+
+
+
+
