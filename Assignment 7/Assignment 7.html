@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Assignment 7</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    
+    
+    
+  <h1 id="demo"> We are in space  </h1>  
+    
+<script>
+
+ 
+    
+ const myElement = document.getElementById("demo");
+myElement.style.color = "#00c6c7";   
+    
+  
+    
+    function someFunctionName() {
+    var answers = [
+        "If we don't end war, war will end us.",
+        "When it comes to believing things without actual evidence, we all incline to what we find most attractive",
+        "Soylent Green is people",
+        "Take your stinkin' paws off me, you damned dirty ape!",
+        "What knockers!",
+        "If you build it, he will come.",
+        "I'm not bad. I'm just drawn that way.",
+        "...Jane, Tarzan, Jane, Tarzan...",
+        "It was Beauty killed the Beast.",
+        "The, uh, stuff that dreams are made of."
+    ];
+ var createAnswer = answers[Math.floor(Math.random()*answers.length)];
+
+document.getElementById("dd").innerHTML = createAnswer;
+
+} //closes your function
+
+ 
+  function announcement() {
+              alert("I am Error");
+                  
+                }//close announcement()
+    
+     function changeBg() {
+                  //document.body.style.background = "#ff0000";
+                  document.body.style.backgroundImage = "url(img/6.png)";
+              }// close changeBg()  
+ 
+    
+ 
+    document.getElementById("dd").innerHTML = "Where you can have all the time in the world";
+    
+    </script>
+    
+    
+   <h1 id="dd"></h1>
+
+<script>
+document.getElementById("dd").innerHTML = "Where you can have all the time in the world";
+</script>  
+  
+
+
+    <body>
+
+  <div id="container">
+
+    
+
+ <form>
+  <p>Here is my script</p>
+  <input type="text">
+  <input type="button" onclick="someFunctionName()" value="Click Here">
+</form>
+
+<button onclick="announcement()">Click Here!</button>
+<button onclick="changeBg()">Make it normal!</button>
+  
+<a href="Assignment%207.html">Home</a>  
+  
+        </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 

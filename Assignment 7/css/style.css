@@ -1,0 +1,96 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+
+    background: url("../img/5.png")lightskyblue;
+  color: #96f4ff;
+font-family: "Orbitron", sans-serif;
+    /*background: orange url("../img/6.png") no-repeat fixed center;	
+background-size: cover;	*/
+}
+
+
+input[type="button"] {
+      background-color:#0dfacf ;
+  border: none;
+  color: blue;
+  padding: 20px 42px;
+  text-decoration: none;
+  margin: 5px 3px;
+  cursor: pointer;
+}	
+
+#container {
+	text-align: center;
+
+}
+
+
+button{
+   background-color:#0dfacf; 
+   border: none;
+  color: blue;
+  text-decoration: none;
+  margin: 5px 3px;
+  cursor: pointer;     
+}
+
+a{
+    color: aqua    
+}
+
+h1{
+  text-align: center;  
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+
+
+} /* closes 769px+ */
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+     .mobile {
+        
+        display:none;
+        word-spacing: 2px;
+    }
+    
+    .desktop {
+        display:block;
+    }
+    
+	
+} /* closes 1024px+ */
+
+
+
