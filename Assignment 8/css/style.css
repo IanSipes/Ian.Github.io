@@ -1,0 +1,106 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.3em;
+    line-height: 2em;
+	
+}
+
+h2{
+    font-size: 0.5;
+}
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+background: url("../img/11.jpg")fixed center #6c0000;	
+color:#a4ff00;
+    text-align: center;
+padding:20px;
+font-family: "Nerko One", cursive;
+}
+
+header{
+    background: #ac4e00;
+    padding:15px;
+}
+
+
+
+#container {
+	 padding:20px;
+    width:95%;
+    margin:auto;
+  text-align: center;
+    
+}
+
+button{
+    background-color:#6c0000; 
+   border: none;
+  color: #a4ff00;
+  text-decoration: none;
+  margin: 15px 13px;
+ padding: 10px 30px;
+ font-family: "Nerko One", cursive;
+  cursor: pointer;
+}
+
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #db7200;
+  border: solid 1px #cc6e07;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+a{
+    color: #a4ff00;
+}
+
+p{
+   cursor: pointer; 
+}
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+		
+	
+} /* closes 769px+ */
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	 
+    .mobile {
+         display:none;
+        word-spacing: 2px;
+    }
+    
+    .desktop {
+        display:block;
+    }
+	
+} /* closes 1024px+ */
+
+
+
