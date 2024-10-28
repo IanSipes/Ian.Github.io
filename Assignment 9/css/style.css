@@ -1,0 +1,164 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.2em;
+    line-height: 1em;
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+body {
+	background: url("../img/12.jpg")  center #6c0000;
+    font-family: "Coiny", system-ui;
+	
+}
+
+
+#container {
+	width:80%;
+	margin:auto;
+	background:#3f466c;
+    padding: 3%;
+}
+
+header, footer {
+	background: #008173;
+	border: 2px solid #002518;
+    color:white;
+    text-align: center;
+    
+}
+
+header {
+	padding:2em;
+	text-align:center;
+}
+
+footer {
+	padding: 1em;
+}
+
+nav ul {
+	list-style:none;
+	padding-left:0px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+nav li {
+    flex: 1 1 auto;
+    
+    
+}
+
+
+nav a {
+	display:block;
+	text-decoration:none;
+	padding:0em;
+	border:1px solid #001675;
+    background: #00ded8;
+    width: auto;
+    text-align:center;
+    color:#209901;
+    height: 60px;
+}
+
+
+
+
+figure {
+	width: auto;
+    margin: 3px;
+    background:aqua;
+	padding:2em;
+    border: 2px solid black;
+    color: #520070;
+	
+}
+
+figure img {
+	width: 100%;
+    padding:
+}
+
+section#H {
+	width: auto;
+    margin: 3px;
+    background:#0070ff;
+	padding:2em;
+    border: 2px solid black;
+    color: #520051;
+    
+}
+section img {
+	width: 100%;
+    padding:
+}
+
+
+section#G {
+	width: auto;
+    margin: 3px;
+    background:#0070ff;
+	padding:2em;
+    border: 2px solid black;
+    color: #520051;
+}
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+main {
+   display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+    
+figure, section {
+        flex: 1 1 30%;
+    padding: 4%;
+    }	   
+
+   
+    
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+figure {
+        flex: 1 1 30%;
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
+
+
