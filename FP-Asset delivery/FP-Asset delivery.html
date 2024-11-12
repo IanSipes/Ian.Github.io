@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>
+        www.Secret Society.com
+    </title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+ 
+
+<body>
+
+ <header>
+    <h1>Welcome to the Secret Society</h1>
+    </header>   
+    
+     <img src="img/IMG_6317.jpg" alt="12"
+          width="300" height="300">
+    
+    
+  <div id="container">
+
+ <section>
+	
+	<button>Intro</button>
+      
+      <p id="A"> The purpose is to help the world by not only protecting them from potential disasters or problems that you might face and find a way to improve and enhance you quality of life for the people. The Secret Society also has scientists whose purpose is to find ways to improve the quality of life for everyone. Their goal is to have society itself evolve in a way that benefits both the citizens, as well as the people running the Secret Society. This is to create a better future for you and the next generation. </p>
+    
+
+</section>
+
+      
+     <section>
+	
+	<button>About</button>  
+     <p id="B">We are a group of people that were rejected by "normal" society. we are here to fix what is broken. The Shadow Society is made up of several positions. First there is the leader who is labeled as the expert in society, culture, and economics. Then there are the researchers who look for new information to show the leader. Next there are the scientists. Unlike the researchers, scientists focused more on studying the human body, the chemicals we consume, and the weather. The scientist for sheep brings data which would be sent to the leader and sees if it goes into good use or not. The secret Society’s population is slowly growing as more and more people feel unsatisfied with the society that they are in so they decide to start over.  </p>      
+  </section>
+         
+  
+  <section>
+	
+	<button>Memorial</button>
+<p> This is the Secret Society and our goal is to create a better future. We need your help. We need more members! In order to become a member of the Secrets Society, there are three things that you need to do. The first thing is that you need to have extensive knowledge with economics and social classes. then you need to have proof that you were ostracized from regular society. The final requirement is that you need to distance yourself from your friends and family and pretend like you’re dead. Overall, getting into the secret society takes lots of working research in order to join.    </p> 
+      
+      </section>
+      
+      
+        <section>
+	
+	<button>Research</button>
+<p>  -Giving more details about the Secret Society regarding its origin, its history, how to become a member, it's products, where the money goes to, what we do, and the future.
+         
+     -Research the type of website to build and create one using the reasearch done. Get new photos and a video for the project.
+         
+    - make it seem like a website that can exist on the internet.</p>
+      
+      </section> 
+      
+      
+    <section>
+	
+	<button>Products</button>
+<p> The products are thinkgs like t-shirts, mugs, stickers lab coats, science equipment, pins, and other products with the Secret Society logo.  </p>
+      
+      </section> 
+      
+    <section>
+	
+	<button>Conclusion</button>
+<p> In conclusion, this is a website that is both a community and a orginization. </p>
+      
+      </section>  
+     
+      
+      
+      
+      
+      
+  </div><!-- close "container" -->
+  
+ <!-- Link to jQuery on Google Hosted Libraries-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+  
+  <!-- Container for your jQuery code -->
+  <script>
+$(document).ready(function() {
+
+$('p').hide();
+    
+$('button').click(function() {
+    
+    //$('p').slideDown();
+    $(this).next().slideDown(2000, function() {
+        
+            $(this).css('background','blue');
+            $('body').addClass('forest');
+        
+        });// close callback
+    
+    
+    });// close .click()
+
+}); //close .ready()
+</script>
+</body>
+	
+</html> 
